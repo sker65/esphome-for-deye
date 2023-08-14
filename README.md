@@ -3,6 +3,11 @@ ESPhome configuration for monitoring and control of Deye inverters in Home Assis
 This include all addresses i could see relevant from the inverter.
 ![image](https://user-images.githubusercontent.com/22115157/211201343-1d54cada-4b2c-40b0-88c4-faf31e17fead.png)
 
+# Changes by SR
+* Alternative definition deye12.yaml
+* Replace ESP native API communication through MQTT.
+* removed the prefix from the "friendly name", but only use it on ids
+
 ## Supported devices
 Made specially for Deye 3phase low voltage inverters
 * SUN-12K-SG04LP3(confirmed)
